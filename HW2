@@ -1,17 +1,26 @@
-## 1. Board Support Packages (BSP)
-* **頁數**：第 26 頁[cite: 26]。
-* **所在章節**：Chapter 1: Introduction 的 1.1 節 (Overview)[cite: 26]。
-* **內容與解釋**：
-  * 針對 Zynq-7000 系列，Xilinx 為 PS（處理系統）與 PL（可程式化邏輯）中的周邊設備提供了 Stand-alone（裸機）與 Linux 的裝置驅動程式[cite: 26]。
-  * 額外的作業系統 (OS) 以及板級支援套件 (BSPs) 則是由 Xilinx 的合作夥伴提供[cite: 26]。
-  * 這表示 UG585 手冊主要聚焦於硬體架構，若需要 BSP 的軟體支援與套件，通常來自第三方合作夥伴的資源[cite: 26]。
+1. Board Support Packages (BSP)
+頁數：第 26 頁
 
-## 2. Interrupt Service Routine (ISR)
+所在章節：Chapter 1: Introduction 的 1.1 節 (Overview)
+
+內容與解釋：
+
+針對 Zynq-7000 系列，Xilinx 為 PS（處理系統）與 PL（可程式化邏輯）中的周邊設備提供了 Stand-alone（裸機）與 Linux 的裝置驅動程式。
+
+額外的作業系統 (OS) 以及板級支援套件 (BSPs) 則是由 Xilinx 的合作夥伴提供。
+
+這表示 UG585 手冊主要聚焦於硬體架構，若需要 BSP 的軟體支援與套件，通常來自第三方合作夥伴的資源。
+
+2. Interrupt Service Routine (ISR)
 在 UG585 檔案的目錄中，指示了硬體開發者在編寫特定周邊驅動程式時，可以前往以下頁面查看中斷服務常式 (ISR) 的程式設計指南：
 
-### DMA 控制器的 ISR
-* **頁數**：第 261 頁[cite: 11]。
-* **所在章節**：Chapter 9: DMA Controller 內的「9.3 Programming Guide for DMA Controller」底下，子章節為「9.3.3 Interrupt Service Routine」[cite: 11]。
-* **內容與解釋**：
-  * 這是針對 DMA（直接記憶體存取）控制器的程式設計指南[cite: 11]。
-  * 該章節會指導開發者如何在軟體中設定與處理 DMA 傳輸完成或發生錯誤時所觸發的中斷[cite: 11]。
+DMA 控制器的 ISR
+頁數：第 261 頁
+
+所在章節：Chapter 9: DMA Controller 內的「9.3 Programming Guide for DMA Controller」底下，子章節為「9.3.3 Interrupt Service Routine」。
+
+內容與解釋：
+
+這是針對 DMA（直接記憶體存取）控制器的程式設計指南。
+
+該章節會指導開發者如何在軟體中設定與處理 DMA 傳輸完成或發生錯誤時所觸發的中斷。
