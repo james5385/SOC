@@ -80,6 +80,7 @@ Zynq-7000 的通用中斷控制器（GIC, Generic Interrupt Controller）基於 
 ---
 
 ## 題目三 ANS
+<img width="1150" height="781" alt="image" src="https://github.com/user-attachments/assets/831dca76-c9b7-4571-bc8d-2b1618ee61af" />
 
 
 
