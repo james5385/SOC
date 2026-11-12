@@ -1,1 +1,7 @@
-12
+# Kernel image
+
+
+# boot loader
+
+
+# File system
