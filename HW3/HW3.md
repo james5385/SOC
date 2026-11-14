@@ -28,7 +28,7 @@
   * `Switch 3 (MIO[4])`：**下 (`1`)** — Mode bit 1
   * `Switch 4 (MIO[5])`：**下 (`1`)** — Mode bit 2
   * `Switch 5 (MIO[6])`：**上 (`0`)** — Enable PS internal PLL
-  * `Switch 5 (MIO[7])`：**皆可** — 無功能
+  * `Switch 6 (MIO[7])`：**皆可** — 無功能
 
 ### 2. 硬體連接與序列埠 (UART) 設定
 1. 將格式化為 `FAT32` 並放入上述開機檔案的 MicroSD 卡插入板載 **`J15`** 卡槽。
