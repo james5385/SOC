@@ -45,12 +45,13 @@
    * **Speed (Baud rate)**: `115200` (8-N-1, Flow control: `None`)
 
 ---
-
+### 檔案載入先後順序
 1. Bootloader (BOOT.BIN) 先醒來，把 SD 卡裡的 Kernel (uImage)、Device Tree (devicetree.dtb)、FS (uramdisk.image.gz) 分別搬到 DDR3 記憶體的三個不同位址。
 2. U-Boot 執行 bootm 指令，啟動 Kernel (uImage)，並把 Device Tree 與 FS 的記憶體位址告訴它。
 3. Kernel 讀取 Device Tree 認識板子上的 UART (J1) 與 SD 卡槽 (J15)，把開機訊息印到你的 PuTTY 畫面上。
 4. Kernel 最後掛載 FS，啟動 Shell，在 PuTTY 印出 login: 讓你登入！   
 
+---
 ## 三、 實驗結果與系統掛載驗證
 
 ### 1. 系統開機與登入畫面
