@@ -60,8 +60,6 @@
 <!-- 請將開機與登入截圖上傳至同目錄，並修改下方圖片檔名 -->
 <img width="661" height="419" alt="image" src="https://github.com/user-attachments/assets/2cf3dcfd-4fa3-4d71-b6b3-abf3203ad33e" />
 
-<img width="810" height="1028" alt="image" src="https://github.com/user-attachments/assets/8f0c10e9-5f4e-4787-8df5-41da81a3e147" />
-
 ### 2. 核心版本與 SD 卡檔案系統掛載 (Mount)
 於 Linux 終端機中執行以下指令，驗證 Kernel 版本並將 SD 卡分割區 (`/dev/mmcblk0p1`) 掛載至 `/mnt` 目錄下進行讀寫：
 
@@ -78,3 +76,5 @@ mount /dev/mmcblk0p1 /mnt
 ls -la /mntE.md           # 附上開機流程說明、PuTTY 驗證截圖 (若做 Bonus 則加上 Source URL)
 
 ## Demo
+```
+<img width="810" height="1028" alt="image" src="https://github.com/user-attachments/assets/8f0c10e9-5f4e-4787-8df5-41da81a3e147" />
