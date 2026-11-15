@@ -75,6 +75,5 @@ ls /
 mount /dev/mmcblk0p1 /mnt
 ls -la /mntE.md           # 附上開機流程說明、PuTTY 驗證截圖 (若做 Bonus 則加上 Source URL)
 
-## Demo
 ```
 <img width="810" height="1028" alt="image" src="https://github.com/user-attachments/assets/8f0c10e9-5f4e-4787-8df5-41da81a3e147" />
